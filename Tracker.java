@@ -120,6 +120,33 @@ public class welcomeUser extends javax.swing.JFrame {
                         .addGroup(jPanel1Layout.createSequentialGroup()
                             .addContainerGap()
 
+                                    .addComponent(loading,
+        javax.swing.GroupLayout.PREFERRED_SIZE, 208,
+        javax.swing.GroupLayout.PREFERRED_SIZE)
+        
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED,
+        javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+         .addComponent(loadvalue,
+        javax.swing.GroupLayout.PREFERRED_SIZE, 37,
+        javax.swing.GroupLayout.PREFERRED_SIZE))
+         .addGroup(jPanel1Layout.createSequentialGroup()
+        
+        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignme
+        nt.LEADING)
+         .addGroup(jPanel1Layout.createSequentialGroup()
+         .addGap(190, 190, 190)
+        .addComponent(jLabel1,
+        javax.swing.GroupLayout.PREFERRED_SIZE, 320,
+        javax.swing.GroupLayout.PREFERRED_SIZE))
+         .addGroup(jPanel1Layout.createSequentialGroup()
+         .addGap(238, 238, 238)
+        .addComponent(jLabel2,
+        javax.swing.GroupLayout.PREFERRED_SIZE, 215,
+        javax.swing.GroupLayout.PREFERRED_SIZE)))
+         .addGap(0, 174, Short.MAX_VALUE)))
+         .addContainerGap())
+         );
+
     }
 }
 
