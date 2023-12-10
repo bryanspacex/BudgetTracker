@@ -221,6 +221,18 @@ public class welcomeUser extends javax.swing.JFrame {
                                 });
                             }
 
+                            // Variables declaration - do not modify
+                            private javax.swing.JLabel jLabel1;
+                            private javax.swing.JLabel jLabel2;
+                            private javax.swing.JLabel jLabel3;
+                            public javax.swing.JPanel jPanel1;
+                            public javax.swing.JProgressBar loader;
+                            public javax.swing.JLabel loading;
+                            public javax.swing.JLabel loadvalue;
+                            // End of variables declaration
+}
+
+
 
 
 
