@@ -232,6 +232,39 @@ public class welcomeUser extends javax.swing.JFrame {
                             // End of variables declaration
 }
 
+// SIGNUP PAGE.
+package expensetracker;
+
+import java.sql.*;
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author Lenovo
+ */
+public class Signup1 extends javax.swing.JFrame {
+
+    /**
+     * Creates new form Signup
+     */
+    public Signup1() {
+        initComponents();
+        connection();
+    }
+
+    Connection con;
+
+    void connection() {
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+            // Add the rest of your code here
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+
 
 
 
