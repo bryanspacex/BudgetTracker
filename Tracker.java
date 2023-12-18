@@ -377,6 +377,17 @@ public class Signup1 extends javax.swing.JFrame {
             .addGap(0, 50, Short.MAX_VALUE)
         );
 
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel3.setText("NEW USER?");
+        jButton3.setBackground(new java.awt.Color(255, 255, 0));
+        jButton3.setText("SIGNUP");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+
+
 
 
 
