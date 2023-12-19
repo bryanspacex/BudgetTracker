@@ -387,6 +387,12 @@ public class Signup1 extends javax.swing.JFrame {
             }
         });
 
+        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\Lenovo\\Desktop\\HE.jpg")); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\Lenovo\\Desktop\\HE.jpg")); // NOI18N
+        
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+
+
 
 
 
