@@ -414,6 +414,41 @@ public class Signup1 extends javax.swing.JFrame {
                     .addContainerGap())
         );
 
+        layout.setVerticalGroup(
+        layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel2,
+                              javax.swing.GroupLayout.PREFERRED_SIZE,
+                              javax.swing.GroupLayout.DEFAULT_SIZE,
+                              javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jPanel1,
+                                      javax.swing.GroupLayout.PREFERRED_SIZE,
+                                      javax.swing.GroupLayout.DEFAULT_SIZE,
+                                      javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED,
+                                         javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel3)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jButton3,
+                                      javax.swing.GroupLayout.PREFERRED_SIZE, 29,
+                                      javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(20, 20, 20))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel4,
+                                          javax.swing.GroupLayout.PREFERRED_SIZE, 307,
+                                          javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel5,
+                                          javax.swing.GroupLayout.PREFERRED_SIZE, 307,
+                                          javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+        );
+        pack();
+
+
 
 
 
