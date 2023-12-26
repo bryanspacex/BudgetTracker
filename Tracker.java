@@ -448,6 +448,17 @@ public class Signup1 extends javax.swing.JFrame {
         );
         pack();
 
+        setLocationRelativeTo(null);
+    }// </editor-fold>
+    
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
+        // TODO add your handling code here:
+        txtname.setText("");
+        txtpass.setText("");
+        txtname.requestFocus();
+    }
+
+
 
 
 
