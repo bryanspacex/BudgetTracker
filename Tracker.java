@@ -458,6 +458,15 @@ public class Signup1 extends javax.swing.JFrame {
         txtname.requestFocus();
     }
 
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {
+        // TODO add your handling code here:
+        newUser nu = new newUser();
+        nu.setVisible(true);
+        hide();
+        //new page goes here.
+    }
+
+
 
 
 
