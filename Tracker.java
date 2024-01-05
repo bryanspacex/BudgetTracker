@@ -482,6 +482,27 @@ public class Signup1 extends javax.swing.JFrame {
                 ip.setVisible(true);
                 hide();
             }
+
+
+            private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
+            // TODO add your handling code here:
+            String user = txtname.getText();
+            String pass = txtpass.getText();
+            
+            try {
+                PreparedStatement pstmt = con.prepareStatement("select username, password from login where username='" + user + "' and password='" + pass + "'");
+                ResultSet rs = pstmt.executeQuery();
+                
+                if (rs.next() == true) {
+                    JOptionPane.showMessageDialog(null, "LOGIN SUCCESSFUL!!");
+                    interfacePage ip = new interfacePage();
+                    ip.setVisible(true);
+                    hide();
+                }
+            } 
+            // Catch block for handling SQL exceptions should be added here
+        }
+
   
 
 
