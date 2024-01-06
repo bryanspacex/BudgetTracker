@@ -499,6 +499,22 @@ public class Signup1 extends javax.swing.JFrame {
                     ip.setVisible(true);
                     hide();
                 }
+                else
+                JOptionPane.showMessageDialog(null, "INCORRECT USERNAME OR PASSWORD");
+            }catch(Exception d){
+                d.printStackTrace();
+            }
+            }
+            
+            private void checkActionPerformed(java.awt.event.ActionEvent evt) {
+                // TODO add your handling code here:
+            
+                if(check.isSelected())
+                    txtpass.setEchoChar((char)0);
+                else
+                    txtpass.setEchoChar('*');
+            }
+
             } 
             // Catch block for handling SQL exceptions should be added here
         }
