@@ -568,6 +568,30 @@ public class Signup1 extends javax.swing.JFrame {
             // Catch block for handling SQL exceptions should be added here
         }
 
+        // NEW USER PAGE
+        package expensetracker;
+        
+        import java.sql.*;
+        import java.util.logging.Level;
+        import java.util.logging.Logger;
+        import javax.swing.JOptionPane;
+        
+        /**
+         * @author Lenovo
+         */
+        public class newUser extends javax.swing.JFrame {
+        
+            /**
+             * Creates new form newUser
+             */
+            public newUser() {
+                initComponents();
+                connection();
+            }
+        
+        }
+
+
   
 
 
