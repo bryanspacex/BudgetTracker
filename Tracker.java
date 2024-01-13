@@ -588,6 +588,18 @@ public class Signup1 extends javax.swing.JFrame {
                 initComponents();
                 connection();
             }
+
+            Connection con;
+
+            void connection() {
+                try {
+                    Class.forName("com.mysql.jdbc.Driver");
+                    con = DriverManager.getConnection("jdbc:mysql://localhost:3306/expensetracker", "root", "Bettiah@2347");
+                } catch (Exception d) {
+                    d.printStackTrace();
+                }
+            }
+
         
         }
 
