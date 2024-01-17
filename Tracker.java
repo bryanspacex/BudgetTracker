@@ -634,6 +634,18 @@ public class Signup1 extends javax.swing.JFrame {
                     .addGap(0, 100, Short.MAX_VALUE)
                 );
 
+                setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+                jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+                jLabel1.setText("NEW USER REGISTRATION");
+                
+                jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Lenovo\\Desktop\\SIGNUP1.png")); // NOI18N
+                jLabel2.setText("jLabel2");
+                
+                jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+                jLabel3.setText("NAME");
+
+
             }
 
 
