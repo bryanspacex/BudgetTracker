@@ -645,6 +645,20 @@ public class Signup1 extends javax.swing.JFrame {
                 jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
                 jLabel3.setText("NAME");
 
+                jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+                jLabel4.setText("USERNAME");
+                
+                jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+                jLabel5.setText("PASSWORD");
+                
+                jButton1.setText("ADD USER");
+                jButton1.addActionListener(new java.awt.event.ActionListener() {
+                    public void actionPerformed(java.awt.event.ActionEvent evt) {
+                        jButton1ActionPerformed(evt);
+                    }
+                });
+
+
 
             }
 
