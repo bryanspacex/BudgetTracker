@@ -658,6 +658,21 @@ public class Signup1 extends javax.swing.JFrame {
                     }
                 });
 
+                jButton2.setText("CLEAR");
+                jButton2.addActionListener(new java.awt.event.ActionListener() {
+                    public void actionPerformed(java.awt.event.ActionEvent evt) {
+                        jButton2ActionPerformed(evt);
+                    }
+                });
+                
+                check.setText("show password");
+                check.addActionListener(new java.awt.event.ActionListener() {
+                    public void actionPerformed(java.awt.event.ActionEvent evt) {
+                        checkActionPerformed(evt);
+                    }
+                });
+
+
 
 
             }
