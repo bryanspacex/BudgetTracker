@@ -678,7 +678,15 @@ public class Signup1 extends javax.swing.JFrame {
                     jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                         .addGap(49, 49, 49)
-                        .addComponent(jButton1)
+                        .addComponent(jButton1).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED,
+                javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jButton2)
+                .addGap(38, 38, 38))
+                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING,
+                          jPanel3Layout.createSequentialGroup()
+                          .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE,
+                                            Short.MAX_VALUE)
+
                 );
 
 
